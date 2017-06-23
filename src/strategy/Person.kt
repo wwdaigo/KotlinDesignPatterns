@@ -5,5 +5,4 @@ package strategy
  */
 
 class Person {
-
 }

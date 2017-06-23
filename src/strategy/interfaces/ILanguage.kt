@@ -5,6 +5,7 @@ package strategy.interfaces
  */
 interface ILanguage {
     val name: String
+    val officialName: String
 
     fun sayHi()
     fun sayThankYou()
