@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5885a488-6ce7-4dcd-96cd-7e35a2e9f828" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strategy/languages/EnglishLanguage.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strategy/languages/GermanLanguage.kt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strategy/languages/PortugueseLanguage.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/Person.kt" afterPath="$PROJECT_DIR$/src/strategy/Person.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strategy/interfaces/ILanguage.kt" afterPath="$PROJECT_DIR$/src/strategy/interfaces/ILanguage.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strategy/occupations/DoctorOccupation.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strategy/occupations/SoftwareDeveloperOccupation.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strategy/occupations/TeacherOccupation.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,11 +58,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GermanLanguage.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GermanLanguage.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/strategy/languages/GermanLanguage.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoctorOccupation.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy/occupations/DoctorOccupation.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeacherOccupation.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/strategy/occupations/TeacherOccupation.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoftwareDeveloperOccupation.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strategy/occupations/SoftwareDeveloperOccupation.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -95,8 +124,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -121,6 +150,9 @@
         <option value="$PROJECT_DIR$/src/strategy/languages/PortugueseLanguage.kt" />
         <option value="$PROJECT_DIR$/src/strategy/languages/EnglishLanguage.kt" />
         <option value="$PROJECT_DIR$/src/strategy/languages/GermanLanguage.kt" />
+        <option value="$PROJECT_DIR$/src/strategy/occupations/DoctorOccupation.kt" />
+        <option value="$PROJECT_DIR$/src/strategy/occupations/SoftwareDeveloperOccupation.kt" />
+        <option value="$PROJECT_DIR$/src/strategy/occupations/TeacherOccupation.kt" />
       </list>
     </option>
   </component>
@@ -196,29 +228,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="languages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KotlinDesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KotlinDesignPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strategy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
+              <option name="myItemId" value="occupations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -553,8 +563,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/languages/GermanLanguage.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/occupations/SoftwareDeveloperOccupation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/occupations/DoctorOccupation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/occupations/TeacherOccupation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
