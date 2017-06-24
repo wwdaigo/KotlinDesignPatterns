@@ -1,4 +1,4 @@
-package observer.implementation
+package observer.subject
 
 import observer.interfaces.IObservable
 import observer.interfaces.IObserver
