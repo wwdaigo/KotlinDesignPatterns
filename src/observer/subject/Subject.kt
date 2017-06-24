@@ -7,15 +7,17 @@ import observer.interfaces.IObserver
  * Created by daigomatsuoka on 23/06/17.
  */
 
-class Observable: IObservable {
+class Subject : IObservable {
 
     val observers = ArrayList<IObserver>()
 
     override fun add(o: IObserver) {
+        println("${o::class.simpleName} has joined")
         observers.add(o)
     }
 
     override fun remove(o: IObserver) {
+        println("${o::class.simpleName} has been kicked")
         observers.remove(o)
     }
 
